@@ -1,0 +1,177 @@
+.navbar-color {
+  background-color: #d81c0e;
+  /* Color de fondo personalizado */
+}
+
+.link-unstyled {
+  text-decoration: none;
+  /* Elimina el subrayado */
+  color: inherit;
+  /* Usa el color heredado (generalmente, el color predeterminado) */
+}
+#powerbi{
+  margin-top: 70px;
+}
+
+.center-button {
+  text-align: center;
+}
+
+.margen-contenedor {
+  margin-top: 80px;
+}
+
+/* Estilo para los boton de búsqueda */
+.search-button {
+  color:#fff;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  border-radius: 5px;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-style: none;
+}
+.search-button:hover{
+  background-color: #55a7ff;
+  transition: 0.1s;
+}
+#faplus{
+  border-style: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  padding: 2px 8px 6px 8px;
+  color:#fff;
+}
+#faplus:hover{
+  background-color: #55a7ff;
+  transition: 0.1s;
+}
+#registrarventa{
+  border-style: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  padding: 4px 10px 8px 10px;
+  color:#fff;
+}
+#registrarventa:hover{
+  background-color: #55a7ff;
+  transition: 0.1s;
+}
+#centertable{
+  text-align: center;
+}
+.titleventa{
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+.title{
+  text-align: center;
+}
+.tipopago{
+  border-bottom: 1px solid black;
+  border-radius: 0% !important; 
+}
+.tipopago:hover{
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Estilos para la selección  */
+.Seleccion {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 10px;
+  transition: all 0.2s;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.align-button {
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-icon {
+  text-align: center;
+  font-size: 24px;
+  margin: 2px 0;
+}
+
+.social-icon a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-icon a:hover {
+  color: #007bff;
+}
+
+/* En SinAcceso.css */
+.sin-acceso-container {
+  height: 100vh;
+  /* 100% de la altura de la ventana */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sin-acceso-card {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.detalle-precio {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.detalle-precio-grande {
+  font-size: 34px; /* O ajusta el tamaño según tu preferencia */
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.punto-verde {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.punto-rojo {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.espaciado{
+  margin-top: 70px;
+}
+
+.botongraf{
+  margin-right: 20px;
+}
